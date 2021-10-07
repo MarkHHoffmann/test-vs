@@ -11,6 +11,7 @@ namespace git_test_vs.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        public string blah { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -19,6 +20,7 @@ namespace git_test_vs.Pages
 
         public IActionResult OnGet()
         {
+            blah = "This is form main.";
             return Page();
         }
     }
