@@ -20,7 +20,7 @@ namespace git_test_vs.Pages
 
         public IActionResult OnGet()
         {
-            blah = "This is form branch 1.";
+            blah = "This is from branch 1.";
             return Page();
         }
     }
