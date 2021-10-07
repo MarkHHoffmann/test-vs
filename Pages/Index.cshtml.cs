@@ -17,9 +17,9 @@ namespace git_test_vs.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            return Page();
         }
     }
 }
